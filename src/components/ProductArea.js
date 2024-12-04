@@ -1,5 +1,7 @@
 import React from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { BsArrowLeft } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,6 +11,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import ProductItem from "./ProductItem";
 
 const ProductArea = () => {
@@ -44,8 +47,8 @@ const ProductArea = () => {
               <hr />
             </div>
             <div className="arrows-con">
-              <MdOutlineKeyboardArrowRight />
-              <MdOutlineKeyboardArrowRight />
+              <BsArrowLeft />
+              <BsArrowRight />
             </div>
           </div>
         </div>

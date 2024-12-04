@@ -9,7 +9,7 @@ const ProductItem = () => {
         <p style={{ marginBottom: "10px" }}>Category</p>
         <div className="product-item-img-con">
           <p className="span">-20%</p>
-          <img src="./images/logo192.png" alt="logo" />
+          <img src="./images/product8.webp" alt="logo" />
         </div>
         <div className="ratings-con-prod">
           <IoIosStar />

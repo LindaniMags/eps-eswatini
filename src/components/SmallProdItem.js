@@ -17,7 +17,7 @@ const SmallProdItem = () => {
           <p>E210.00</p>
         </div>
         <div className="small-prod-img-con">
-          <img src="./images/logo192.png" alt="logo" />
+          <img src="./images/product13.webp" alt="logo" />
         </div>
       </div>
     </div>

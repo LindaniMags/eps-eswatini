@@ -1,5 +1,6 @@
 import React from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { BsArrowLeft } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import ProductItem from "./ProductItem";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -24,8 +25,8 @@ const SmallProdArea = () => {
             <hr />
           </div>
           <div className="arrows-con">
-            <MdOutlineKeyboardArrowRight />
-            <MdOutlineKeyboardArrowRight />
+            <BsArrowLeft />
+            <BsArrowRight />
           </div>
         </div>
         <div className="small-prod-carousel-con">

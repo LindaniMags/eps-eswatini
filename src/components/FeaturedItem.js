@@ -5,7 +5,7 @@ const FeaturedItem = () => {
   return (
     <div className="featured-item-con">
       <div className="featured-item-content">
-        <img src="./images/logo192.png" alt="logo" />
+        <img src="./images/product4.webp" alt="logo" />
         <div className="featured-txt">
           <h4>Featured Item</h4>
           <p>Category</p>
