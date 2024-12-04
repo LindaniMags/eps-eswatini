@@ -1,4 +1,13 @@
 import React from "react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css/bundle";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import ProductItem from "./ProductItem";
 
@@ -43,11 +52,35 @@ const ProductArea = () => {
       </div>
       <div className="product-carousel-con">
         <div className="carousel-con">
-          <ProductItem />
-          <ProductItem />
-          <ProductItem />
-          <ProductItem />
-          <ProductItem />
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={20}
+            slidesPerView={5}
+            loop={true}
+          >
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ProductItem />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>

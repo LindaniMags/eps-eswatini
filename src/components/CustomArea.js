@@ -31,7 +31,7 @@ const CustomArea = () => {
             </div>
           </div>
         </div>
-        <div className="custom-items-con" style={{ display: "none" }}>
+        <div className="custom-items-con">
           <div className="custom-items">
             <div className="custom-item">
               <SmallProdItem />

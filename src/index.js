@@ -11,6 +11,8 @@ import Action from "./components/Action";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 import Shop from "./components/Shop";
+import Slides from "./components/Slides";
+import ProductItem from "./components/ProductItem";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +25,8 @@ root.render(
         <Route path="contact" element={<Contact />} />
         <Route path="services" element={<Services />} />
         <Route path="shop" element={<Shop />} />
+        <Route path="slide" element={<Slides />} />
+        <Route path="product" element={<ProductItem />} />
       </Routes>
       <Action />
       <Footer />

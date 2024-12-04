@@ -7,38 +7,56 @@ const Footer = () => {
         <div className="company box">
           <div className="company-item-con">
             <div className="company-item">
-              <h1>Company</h1>
-              <p>comany info</p>
+              <div className="logo">
+                <img
+                  src="./images/eps-logo.png"
+                  alt="logo"
+                  style={{ width: "100px" }}
+                />
+              </div>
+              <strong>
+                <p>Parts Of Great Quality</p>
+              </strong>
             </div>
             <div className="company-item">
-              <h1>Company</h1>
-              <p>comany info</p>
+              <strong>
+                <p>Address</p>
+              </strong>
+              <p>Floron Business Center, Matsapha Industrial Site</p>
             </div>
             <div className="company-item">
-              <h1>Company</h1>
-              <p>comany info</p>
+              <strong>
+                <p>Need Help?</p>
+              </strong>
+              <p>(268) 7631 0838 / 7931 0838</p>
             </div>
           </div>
         </div>
         <div className="info ">
-          <h4>Info1</h4>
-          <p>comany info1</p>
-          <p>comany info1</p>
-          <p>comany info1</p>
-          <p>comany info1</p>
-          <p>comany info1</p>
+          <strong>
+            <p>Infomation</p>
+          </strong>
+          <p>Contact Us</p>
+          <p>Delivery Information</p>
+          <p>Privacy Policy</p>
+          <p>Coming Soon</p>
+          <p>Terms & Conditions</p>
         </div>
         <div className="extras ">
-          <h1>Extras</h1>
-          <p>comany info1</p>
-          <p>comany info1</p>
-          <p>comany info1</p>
-          <p>comany info1</p>
-          <p>comany info1</p>
+          <strong>
+            <p>Extras</p>
+          </strong>
+          <p>Returns</p>
+          <p>Order History</p>
+          <p>Wish List</p>
+          <p>Newsletter</p>
+          <p>Specials</p>
         </div>
         <div className="newsletter box ">
-          <h1>Newsletter</h1>
-          <p>comany info1</p>
+          <strong>
+            <p>Newsletter Subscribe</p>
+          </strong>
+          <p>We’ll never share your email address with a third-party.</p>
           <div className="subscribe-con">
             <input type="text" />
             <button>subscribe</button>

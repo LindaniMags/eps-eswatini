@@ -24,7 +24,7 @@ function Header() {
 
       <div className="header-middle">
         <div className="logo">
-          <img src="./images/logo192.png" alt="logo" />
+          <img src="./images/eps-logo.png" alt="logo" />
         </div>
         <div className="search-con">
           <input type="text" className="sesarch-input" placeholder="Search" />

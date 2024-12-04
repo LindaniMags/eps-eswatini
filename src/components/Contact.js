@@ -6,6 +6,10 @@ import { AiOutlineMail } from "react-icons/ai";
 const Contact = () => {
   return (
     <div className="contact-area">
+      <div className="page-title">
+        <p>About Us</p>
+      </div>
+      <img src="./images/about1.webp" alt="logo" />
       <div className="contact-con">
         <div className="contact-details">
           <h1>Contact Us</h1>
@@ -17,15 +21,22 @@ const Contact = () => {
           <div className="contacts">
             <div className="contact">
               <MdOutlineLocalPhone />
-              <p>Phone</p>
+              <p>
+                <strong>Phone:</strong> (268) 7631 0838 / 7931 0838
+              </p>
             </div>
             <div className="contact">
               <FaAddressBook />
-              <p>Address</p>
+              <p>
+                <strong>Address:</strong> Floron Business Center, Matsapha
+                Industrial Site
+              </p>
             </div>
             <div className="contact">
               <AiOutlineMail />
-              <p>Email</p>
+              <p>
+                <strong>Email:</strong> sales@eswapas.com / jay@eswapas.com
+              </p>
             </div>
           </div>
         </div>

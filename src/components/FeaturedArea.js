@@ -1,5 +1,14 @@
 import React from "react";
 import FeaturedItem from "./FeaturedItem";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css/bundle";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const FeaturedArea = () => {
   return (
@@ -14,12 +23,50 @@ const FeaturedArea = () => {
           </div>
         </div>
         <div className="featured-carousel-con">
-          <FeaturedItem />
-          <FeaturedItem />
-          <FeaturedItem />
-          <FeaturedItem />
-          <FeaturedItem />
-          <FeaturedItem />
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={0}
+            slidesPerView={3}
+            loop={true}
+          >
+            <SwiperSlide>
+              <div
+                className="featured-slice"
+                style={{ borderRight: "solid 1px #ddd" }}
+              >
+                <FeaturedItem />
+                <FeaturedItem />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="featured-slice"
+                style={{ borderRight: "solid 1px #ddd" }}
+              >
+                <FeaturedItem />
+                <FeaturedItem />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="featured-slice"
+                style={{ borderRight: "solid 1px #ddd" }}
+              >
+                <FeaturedItem />
+                <FeaturedItem />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="featured-slice"
+                style={{ borderRight: "solid 1px #ddd" }}
+              >
+                <FeaturedItem />
+                <FeaturedItem />
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>

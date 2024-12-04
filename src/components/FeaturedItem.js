@@ -13,7 +13,9 @@ const FeaturedItem = () => {
           <p>cat3</p>
           <p>cat4</p>
           <div className="shop-now">
-            <p>Shop Now</p>
+            <strong>
+              <p>Shop Now</p>
+            </strong>
             <MdOutlineKeyboardArrowRight
               style={{
                 backgroundColor: "#ffd54c",

@@ -6,26 +6,29 @@ const Services = () => {
   return (
     <div className="services-area">
       <div className="services-con">
+        <div className="page-title">
+          <p>Our Services</p>
+        </div>
         <div className="cover-con">
           <div className="cover-item">
-            <img src="./images/logo192.png" alt="logo" />
-            <h4>Cover Item</h4>
+            <img src="./images/services1.webp" alt="logo" />
+            <p>Cover Item</p>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
               id quisquam suscipit doloribus vitae voluptatum!
             </p>
           </div>
           <div className="cover-item">
-            <img src="./images/logo192.png" alt="logo" />
-            <h4>Cover Item</h4>
+            <img src="./images/services2.webp" alt="logo" />
+            <p>Cover Item</p>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
               id quisquam suscipit doloribus vitae voluptatum!
             </p>
           </div>
           <div className="cover-item">
-            <img src="./images/logo192.png" alt="logo" />
-            <h4>Cover Item</h4>
+            <img src="./images/services3.webp" alt="logo" />
+            <p>Cover Item</p>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
               id quisquam suscipit doloribus vitae voluptatum!
@@ -107,16 +110,22 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="sevices-banner">
-          <h2>Unlimited Services</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-            totam, omnis, sint tempore accusamus fugiat magnam impedit obcaecati
-            eos, dolor tempora. Vel ipsum accusantium cupiditate.
-          </p>
-          <a>
-            <button>Learn More</button>
-          </a>
+        <div className="services-banner-con">
+          <div className="sevices-banner">
+            <img src="./images/services4.webp" alt="banner-img" />
+            <div className="services-banner-txt">
+              <h2>Unlimited Services</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Possimus totam, omnis, sint tempore accusamus fugiat magnam
+                impedit obcaecati eos, dolor tempora. Vel ipsum accusantium
+                cupiditate.
+              </p>
+              <a>
+                <button className="learn-btn">Learn More</button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

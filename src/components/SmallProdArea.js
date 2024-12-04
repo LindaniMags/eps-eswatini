@@ -1,6 +1,16 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import SmallProdItem from "./SmallProdItem";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css/bundle";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import ProductItem from "./ProductItem";
 
 const SmallProdArea = () => {
   return (
@@ -19,11 +29,38 @@ const SmallProdArea = () => {
           </div>
         </div>
         <div className="small-prod-carousel-con">
-          <SmallProdItem />
-          <SmallProdItem />
-          <SmallProdItem />
-          <SmallProdItem />
-          <SmallProdItem />
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={10}
+            slidesPerView={3}
+            loop={true}
+          >
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SmallProdItem />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>
