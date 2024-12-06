@@ -39,28 +39,22 @@ const SmallProdArea = () => {
             loop={true}
           >
             <SwiperSlide>
-              <SmallProdItem />
+              <SmallProdItem title="Track Chain" prodImg="prod2.png" />
             </SwiperSlide>
             <SwiperSlide>
-              <SmallProdItem />
+              <SmallProdItem title="Track Shoe" prodImg="prod1.png" />
             </SwiperSlide>
             <SwiperSlide>
-              <SmallProdItem />
+              <SmallProdItem title="Filter" prodImg="product13.webp" />
             </SwiperSlide>
             <SwiperSlide>
-              <SmallProdItem />
+              <SmallProdItem title="Track Link" prodImg="prod7.png" />
             </SwiperSlide>
             <SwiperSlide>
-              <SmallProdItem />
+              <SmallProdItem title="Track Roller" prodImg="prod8.png" />
             </SwiperSlide>
             <SwiperSlide>
-              <SmallProdItem />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SmallProdItem />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SmallProdItem />
+              <SmallProdItem title="Track Chain" prodImg="prod2.png" />
             </SwiperSlide>
           </Swiper>
         </div>

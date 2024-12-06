@@ -2,6 +2,7 @@ hr {
   background-color: #f0f0f0;
 }
 p {
+  font-size: 14px;
   color: #333333;
 }
 a {
@@ -306,6 +307,7 @@ a {
 }
 .product-item p {
   text-align: start;
+  text-wrap: nowrap;
 }
 .ratings-con-prod {
   display: flex;
@@ -359,6 +361,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  justify-content: center;
+  text-align: left;
 }
 .shop-now {
   margin: 15px 0;
@@ -424,7 +428,7 @@ a {
 }
 .banner-content {
   width: 49%;
-  background-color: #8080806b;
+  background-color: #f6f6f6;
   height: 220px;
 }
 

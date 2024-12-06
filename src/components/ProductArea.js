@@ -63,25 +63,53 @@ const ProductArea = () => {
             loop={true}
           >
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Track Shoe"
+                prodImg={"prod1.png"}
+                category="Undercarriage Parts"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Mobile Generator"
+                prodImg={"prod3.png"}
+                category="Construction Equipment"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Rammer"
+                prodImg={"prod10.png"}
+                category="Construction Equipment"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Track Roller"
+                prodImg={"prod2.png"}
+                category="Undercarriage Parts"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Carrier Roller"
+                prodImg={"prod8.png"}
+                category="Undercarriage Parts"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Water Pump"
+                prodImg={"prod5.png"}
+                category="Construction Equipment"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Bolts & Nuts"
+                prodImg={"prod9.png"}
+                category="Spares"
+              />
             </SwiperSlide>
           </Swiper>
         </div>

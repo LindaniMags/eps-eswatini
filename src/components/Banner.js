@@ -4,16 +4,22 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-con">
-        <div className="banner-content">
-          <p>Car Audio</p>
-          <h2>Natural Sound</h2>
-          <a>Shop Now</a>
-        </div>
-        <div className="banner-content">
-          <p>Car Audio</p>
-          <h2>Natural Sound</h2>
-          <a>Shop Now</a>
-        </div>
+        <div
+          className="banner-content"
+          style={{
+            backgroundImage: `url(./images/filter-kit.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></div>
+        <div
+          className="banner-content"
+          style={{
+            backgroundImage: `url(./images/spares.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></div>
       </div>
     </div>
   );

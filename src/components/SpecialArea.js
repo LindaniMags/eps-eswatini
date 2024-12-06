@@ -38,25 +38,46 @@ const SmallProdArea = () => {
             loop={true}
           >
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Water Jet"
+                prodImg={"prod5.png"}
+                category="Electrical"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Rammer"
+                prodImg={"prod10.png"}
+                category="Construction"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Generator"
+                prodImg={"prod6.png"}
+                category="Electrical"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Filter"
+                prodImg={"product8.webp"}
+                category="Replacements"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Track Shoe"
+                prodImg={"prod1.png"}
+                category="Undercarriage"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductItem />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ProductItem />
+              <ProductItem
+                title="Roller"
+                prodImg={"prod2.png"}
+                category="Undercarriage"
+              />
             </SwiperSlide>
           </Swiper>
         </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import { IoIosStar } from "react-icons/io";
 
-const SmallProdItem = () => {
+const SmallProdItem = ({ title, prodImg }) => {
   return (
     <div className="small-prod-item">
       <div className="small-prod-item-con">
         <div className="small-prod-txt">
-          <p>Product Name</p>
+          <p>{title}</p>
           <div className="ratings-con">
             <IoIosStar />
             <IoIosStar />
@@ -14,10 +14,9 @@ const SmallProdItem = () => {
             <IoIosStar />
             <IoIosStar />
           </div>
-          <p>E210.00</p>
         </div>
         <div className="small-prod-img-con">
-          <img src="./images/product13.webp" alt="logo" />
+          <img src={`./images/${prodImg}`} alt="logo" />
         </div>
       </div>
     </div>
