@@ -42,7 +42,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="hero-slide-con">
+        <div
+          className="hero-slide-con"
+          style={{
+            backgroundImage: "url('./images/traactor.png')",
+            backgroundSize: "cover",
+          }}
+        >
           <div className="hero-slide-text">
             <div className="top-qual-con">
               <p>Top quality</p>
