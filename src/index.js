@@ -12,6 +12,12 @@ import Contact from "./components/Contact";
 import Services from "./components/Services";
 import Shop from "./components/Shop";
 import ProductItem from "./components/ProductItem";
+import Undercarry from "./components/Undercarry";
+import Electrical from "./components/Electrical";
+import Ground from "./components/Ground";
+import Construction from "./components/Construction";
+import Filters from "./components/Filters";
+import Spares from "./components/Spares";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +31,12 @@ root.render(
         <Route path="services" element={<Services />} />
         <Route path="shop" element={<Shop />} />
         <Route path="product" element={<ProductItem />} />
+        <Route path="undercarry" element={<Undercarry />} />
+        <Route path="electrical" element={<Electrical />} />
+        <Route path="ground" element={<Ground />} />
+        <Route path="construction" element={<Construction />} />
+        <Route path="filters" element={<Filters />} />
+        <Route path="spares" element={<Spares />} />
       </Routes>
       <Action />
       <Footer />

@@ -847,6 +847,36 @@ a {
   color: #ffd54c;
 }
 
+/*Undercarriage category*/
+
+.undercarry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.undercarry-con {
+  display: flex;
+  flex-direction: column;
+  width: 83%;
+  gap: 22px;
+}
+.undercarry-con img {
+  max-width: 100%;
+  height: auto;
+}
+.undercarry-con p {
+  background: #f6f6f6;
+  padding: 22px;
+}
+.undercarry-parts {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.undercarry-item {
+  border: 1px solid #3333;
+}
+
 /*slides*/
 .swiper-slide {
   flex-shrink: 0;

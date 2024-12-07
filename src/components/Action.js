@@ -9,8 +9,10 @@ const Action = () => {
       <div className="action-con">
         <div className="action-item-con">
           <div className="action-item">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p style={{ textAlign: "start" }}>Lorem ipsum </p>
+            <h1>Eswatini Plant & Spares</h1>
+            <i>
+              <p style={{ textAlign: "start" }}>Parts of Great Quality </p>
+            </i>
           </div>
           <div className="discover-btn">
             <button>Discover Now</button>

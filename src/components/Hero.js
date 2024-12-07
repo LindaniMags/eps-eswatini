@@ -17,27 +17,39 @@ const Hero = () => {
           </div>
           <div className="cat-con">
             <div className="cat-item">
-              <p className="cat-name">Undercarriage Parts</p>
+              <Link to="/undercarry">
+                <p className="cat-name">Undercarriage Parts</p>
+              </Link>
               <MdOutlineKeyboardArrowRight />
             </div>
             <div className="cat-item">
-              <p className="cat-name">Electrical Parts</p>
+              <Link to="/electrical">
+                <p className="cat-name">Electrical Parts</p>
+              </Link>
               <MdOutlineKeyboardArrowRight />
             </div>
             <div className="cat-item">
-              <p className="cat-name">G.E.T</p>
+              <Link to="/ground">
+                <p className="cat-name">G.E.T</p>
+              </Link>
               <MdOutlineKeyboardArrowRight />
             </div>
             <div className="cat-item">
-              <p className="cat-name">Construction Equipment</p>
+              <Link to="/construction">
+                <p className="cat-name">Construction Equipment</p>
+              </Link>
               <MdOutlineKeyboardArrowRight />
             </div>
             <div className="cat-item">
-              <p className="cat-name">Service Kit Filters</p>
+              <Link to="/filters">
+                <p className="cat-name">Service Kit Filters</p>
+              </Link>
               <MdOutlineKeyboardArrowRight />
             </div>
             <div className="cat-item">
-              <p className="cat-name">Other Spares & Equipment</p>
+              <Link to="/spares">
+                <p className="cat-name">Other Spares & Equipment</p>
+              </Link>
               <MdOutlineKeyboardArrowRight />
             </div>
           </div>

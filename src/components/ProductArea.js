@@ -28,19 +28,19 @@ const ProductArea = () => {
             </div>
             <div className="product-tabs-con">
               <div className="product-tab">
-                <p>Product 1</p>
+                <p>Ewatini</p>
               </div>
               <div className="hr-tab">
                 <hr />
               </div>
               <div className="product-tab">
-                <p>Product 2</p>
+                <p>Plant</p>
               </div>
               <div className="hr-tab">
                 <hr />
               </div>
               <div className="product-tab">
-                <p>Product 3</p>
+                <p>Spares</p>
               </div>
             </div>
             <div className="hr-arrows">
