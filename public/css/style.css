@@ -899,6 +899,9 @@ a {
   display: block;
   margin-right: 0;
 }
+.brands-con-img {
+  width: 90px;
+}
 
 /*Media Queries*/
 .container {
@@ -995,7 +998,7 @@ a {
   .subscribe-con {
     display: none;
   }
-  .brands-con img {
+  .brands-con-img {
     width: 31px;
   }
 }
