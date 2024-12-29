@@ -35,7 +35,11 @@ const SmallProdArea = () => {
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={10}
-            slidesPerView={3}
+            breakpoints={{
+              1024: { slidesPerView: 3 },
+              640: { slidesPerView: 2 },
+              360: { slidesPerView: 1 },
+            }}
             loop={true}
           >
             <SwiperSlide>

@@ -59,7 +59,12 @@ const ProductArea = () => {
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={20}
-            slidesPerView={5}
+            breakpoints={{
+              1440: { slidesPerView: 5 },
+              1080: { slidesPerView: 4 },
+              640: { slidesPerView: 3 },
+              360: { slidesPerView: 2 },
+            }}
             loop={true}
           >
             <SwiperSlide>

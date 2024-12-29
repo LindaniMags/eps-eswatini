@@ -13,7 +13,7 @@ const Insert = () => {
         <div className="insert-item">
           <PiTractorLight className="insert-icon" />
           <div className="insert-txt-con">
-            <h3>G.E.T</h3>
+            <h2>G.E.T</h2>
             <p>Ground Engagement Tools</p>
           </div>
         </div>
@@ -21,7 +21,7 @@ const Insert = () => {
         <div className="insert-item">
           <AiOutlineFilter className="insert-icon" />
           <div className="insert-txt-con">
-            <h3>Service Kit Filters</h3>
+            <h2>Service Kit Filters</h2>
             <p>Get the right filters at the right price</p>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Insert = () => {
         <div className="insert-item">
           <VscTools className="insert-icon" />
           <div className="insert-txt-con">
-            <h3>Free Shipping</h3>
+            <h2>Free Shipping</h2>
             <p>Free Shipping for SD based</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Insert = () => {
         <div className="insert-item">
           <TbReplace className="insert-icon" />
           <div className="insert-txt-con">
-            <h3>Replacement Parts</h3>
+            <h2>Replacement Parts</h2>
             <p>Get the correct replacement parts</p>
           </div>
         </div>

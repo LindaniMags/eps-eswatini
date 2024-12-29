@@ -27,7 +27,11 @@ const FeaturedArea = () => {
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={0}
-            slidesPerView={3}
+            breakpoints={{
+              1080: { slidesPerView: 3 },
+              768: { slidesPerView: 2 },
+              360: { slidesPerView: 1 },
+            }}
             loop={true}
           >
             <SwiperSlide>

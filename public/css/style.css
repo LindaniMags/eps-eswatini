@@ -129,6 +129,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 14px 15px;
+  text-wrap: nowrap;
 }
 .hero-slide-con {
   background-color: #f1f1f1;
@@ -216,9 +217,20 @@ a {
   flex-direction: column;
   text-align: left;
 }
+.insert-txt-con h2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.insert-txt-con p {
+  font-size: 13px;
+  line-height: 18px;
+  padding-right: 5px;
+}
 .vl-insert {
   border-left: #ddd solid 1px;
   height: 72px;
+  padding: 0 5px;
 }
 
 /*Product section*/
@@ -292,7 +304,7 @@ a {
 }
 
 .product-item-img-con img {
-  height: 150px;
+  width: 100%;
 }
 .span {
   padding: 3px;
@@ -886,4 +898,111 @@ a {
   transition-property: transform;
   display: block;
   margin-right: 0;
+}
+
+/*Media Queries*/
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .product-item p {
+    font-size: 11.5px;
+  }
+  .featured-item-content img {
+    height: 100px;
+  }
+  .featured-item-con {
+    padding: 15px;
+    background-color: white;
+    min-height: 180px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .insert-con {
+    flex-wrap: wrap;
+  }
+  .insert-item {
+    width: 50%;
+  }
+  .vl-insert {
+    display: none;
+  }
+  .search-con {
+    display: none;
+  }
+  .header-bottom {
+    display: none;
+  }
+  .cat-row {
+    display: none;
+  }
+  .custom-area-con {
+    flex-wrap: wrap;
+  }
+  .action-item h1 {
+    font-size: 15px;
+  }
+  .footer-con {
+    flex-wrap: wrap;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .discover-btn button {
+    line-height: 20px;
+    padding: 0 16px;
+  }
+
+  .action-icons {
+    gap: 10px;
+    font-size: 15px;
+  }
+  .product-tabs-con {
+    display: none;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  .subscribe-con {
+    display: none;
+  }
+  .brands-con img {
+    width: 31px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
 }
