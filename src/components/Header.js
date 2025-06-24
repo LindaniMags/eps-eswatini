@@ -1,11 +1,36 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoSearchOutline } from "react-icons/io5";
 import { Link } from "react-router";
+import Categories from "./Categories";
+
 function Header() {
-  const picture = "./images/logo192.png";
+  const [isCategoriesOpen, setIsCategoriesOpen] = useState(false);
+  const categoriesRef = useRef(null);
+
+  const toggleCategories = () => {
+    setIsCategoriesOpen(!isCategoriesOpen);
+  };
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        categoriesRef.current &&
+        !categoriesRef.current.contains(event.target)
+      ) {
+        setIsCategoriesOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="header-con">
       <div className="header-top-con">
@@ -24,7 +49,16 @@ function Header() {
 
       <div className="header-middle">
         <div className="logo">
-          <img src="./images/eps-logo.png" alt="logo" />
+          <Link to="/">
+            <img src="./images/eps-logo.png" alt="logo" />
+          </Link>
+        </div>
+        <div className="mobile-categories-container" ref={categoriesRef}>
+          <Categories
+            isMobile={true}
+            isOpen={isCategoriesOpen}
+            onToggle={toggleCategories}
+          />
         </div>
         <div className="search-con">
           <input type="text" className="sesarch-input" placeholder="Search" />
