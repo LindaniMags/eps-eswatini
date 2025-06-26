@@ -50,7 +50,11 @@ function Header() {
       <div className="header-middle">
         <div className="logo">
           <Link to="/">
-            <img src="./images/eps-logo.png" alt="logo" />
+            <img
+              src="./images/eps-logo.png"
+              alt="logo"
+              style={{ width: "100px" }}
+            />
           </Link>
         </div>
         <div className="mobile-categories-container" ref={categoriesRef}>

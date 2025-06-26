@@ -48,7 +48,7 @@ const Footer = () => {
               <FaEnvelope className="contact-icon" />
               <div className="contact-info">
                 <h4>Email</h4>
-                <p>info@eps-eswatini.com</p>
+                <p>info@hydropce-eswatini.com</p>
               </div>
             </div>
           </div>

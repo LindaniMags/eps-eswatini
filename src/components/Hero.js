@@ -22,7 +22,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <h1 className="bg-txt">ESWATINI PLANT AND SPARES</h1>
+            <h1 className="bg-txt">HYDROPCE</h1>
           </div>
         </div>
       </div>
